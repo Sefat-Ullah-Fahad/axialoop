@@ -1,0 +1,176 @@
+{
+  "Header": {
+    "solutions": "SOLUTIONS",
+    "caseStudies": "CASE STUDIES",
+    "aboutUs": "ABOUT US",
+    "templates": "TEMPLATES",
+    "ctaButton": "Book a Call"
+  },
+  "Hero": {
+    "titleNormal1": "Your ",
+    "titleItalic": "AI Partner",
+    "titleNormal2": " at ",
+    "titleHighlight": "360 Degrees.",
+    "btnStart": "START NOW",
+    "btnDiscover": "DISCOVER SERVICES"
+  },
+  "ChoosePath": {
+    "titleNormal": "Choose your ",
+    "titleHighlight": "path.",
+    "subtitle": "Tailored automation or ready-to-use products.",
+    "card1": {
+      "titleNormal": "AI Transformation ",
+      "titleHighlight": "Partner",
+      "desc": "Training, Analysis, and Development. We teach your team to use AI every day. We analyze your processes to understand where to implement AI, eliminate bottlenecks, and develop tailored solutions.",
+      "btn": "START NOW"
+    },
+    "card2": {
+      "titleNormal": "Prisma ",
+      "titleHighlight": "Agent",
+      "desc": "The AI agent for WhatsApp reporting. Prisma contacts the team and transforms voice notes, photos, and messages into structured data and weekly reports. Save 20 minutes per day per employee.",
+      "btn": "DISCOVER PRISMA"
+    }
+  },
+
+
+
+ "Impact": {
+    "titleNormal": "Our ",
+    "titleHighlight": "Impact",
+    "stat1Number": "60+",
+    "stat1Label": "PARTNER COMPANIES",
+    "stat2Number": "70+",
+    "stat2Label": "SOLUTIONS IN PRODUCTION",
+    "stat3Number": "5M+",
+    "stat3Label": "USERS REACHED" 
+  },
+
+
+ "Stories": {
+  "titleNormal": "Some stories of ",
+  "titleHighlight": "Success.",
+  "challengeTitle": "THE CHALLENGE",
+  "solutionTitle": "OUR SOLUTION",
+  "resultLabel1": "GENERATED IN JUST ONE MONTH",
+  "resultLabel2": "RECOVERED / MONTH",
+  "resultLabel3": "SAVINGS / YEAR",
+  "resultLabel4": "LEAD CONVERSION",
+  "btn": "See other case studies",
+  "bluvacanze": {
+    "challengeDesc": "An archive of thousands of inactive contacts. A true commercial treasure, but impossible to manage manually.",
+    "solutionDesc": "An AI agent that initiates proactive conversations on WhatsApp, profiles the user, and proposes personalized trips."
+  },
+  "dolomiti": {
+    "challengeDesc": "Reporting from construction sites was slow and chaotic. Lost voice notes, paper sheets, and administrative delays.",
+    "solutionDesc": "This is where Prisma was born. The agent that transcribes voice messages and photos from the site directly into the management system."
+  },
+  "restworld": {
+    "challengeDesc": "A constant flow of unqualified leads that slowed down the sales team, with response times that were too long.",
+    "solutionDesc": "An intelligent filter active 24/7. The AI Agent analyzes responses and passes only concrete opportunities to the salespeople."
+  }
+},
+
+
+
+
+  "Contact": {
+    "badge": "CONTACT US",
+    "titleNormal": "Let's talk about your",
+    "titleHighlight": "project.",
+    "subtitle": "Fill out the form below to schedule a discovery call.",
+    "form": {
+      "name": "Full Name *",
+      "email": "Business Email *",
+      "phone": "Phone Number",
+      "company": "Company Name *",
+      "role": "What is your role in the company? *",
+      "service": "Which service are you interested in? *",
+      "project": "Describe your project in detail *",
+      "revenue": "Annual Revenue",
+      "website": "Company Website",
+      "size": "Company Size *",
+      "investment": "Project Investment *",
+      "source": "How did you hear about us? *",
+      "submit": "Send Request"
+    },
+    "placeholders": {
+      "role": "e.g. CEO, Marketing Manager, Developer..."
+    }
+  
+}
+,
+
+
+"Footer": {
+  "heroText": "Your 360-Degree AI Partner.",
+  "subHero": "We transform the way companies work through Artificial Intelligence.",
+  "copyright": "© 2026 MARTES AI S.R.L. ALL RIGHTS RESERVED.",
+  "links": {
+    "servizi": "Services",
+    "risorse": "Resources",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookie": "Cookie Policy",
+    "cases": "Case Studies",
+    "contact": "Contact Us"
+  }
+},
+
+
+
+"aboutUs": {
+    "badge": "Our Team",
+    "titleMain": "Our",
+    "titleItalic": "Team",
+    "description": "A multidisciplinary team dedicated to your growth.",
+    "clickToClose": "Click to close",
+    "members": {
+      "member1": {
+        "name": "Riccardo Belli Contarini",
+        "role": "CEO & FOUNDER",
+        "desc": "Computer engineer. Democratizing AI through outreach and YouTube."
+      },
+      "member2": {
+        "name": "Andrea Belli Contarini",
+        "role": "CTO & CO-FOUNDER",
+        "desc": "Computational physicist specialized in machine learning. Brings scientific rigor to AI solutions."
+      },
+      "member3": {
+        "name": "Tommaso Misiti",
+        "role": "FRONT-END DEVELOPER",
+        "desc": "Expert in building modern, scalable web applications with a focus on performance."
+      },
+      "member4": {
+        "name": "Paolo Pagliarini",
+        "role": "SOFTWARE ENGINEER",
+        "desc": "Passionate about backend systems and architectural design for complex AI tools."
+      },
+      "member5": {
+        "name": "Filippo Bartoletti",
+        "role": "SOFTWARE ENGINEER",
+        "desc": "Specialized in creating seamless user experiences and efficient data handling."
+      },
+      "member6": {
+        "name": "Giovanni Fiore",
+        "role": "SOFTWARE ENGINEER",
+        "desc": "Computer engineer. Creates intuitive interfaces to make AI accessible."
+      },
+      "member7": {
+        "name": "Luca Tam",
+        "role": "SOFTWARE ENGINEER",
+        "desc": "Focuses on developing robust software solutions for large-scale deployments."
+      },
+      "member8": {
+        "name": "Ilaria Pretolani",
+        "role": "CFO",
+        "desc": "Manages financial strategy and operations to ensure sustainable growth."
+      }
+    }
+
+
+
+
+
+  }
+}

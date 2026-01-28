@@ -1,0 +1,180 @@
+{
+  "Header": {
+    "solutions": "SOLUZIONI",
+    "caseStudies": "CASI STUDIO",
+    "aboutUs": "CHI SIAMO",
+    "templates": "TEMPLATES",
+    "ctaButton": "Prenota Call"
+  },
+  "Hero": {
+    "titleNormal1": "Il tuo ",
+    "titleItalic": "Partner AI",
+    "titleNormal2": " a ",
+    "titleHighlight": "360 Gradi.",
+    "btnStart": "INIZIA ORA",
+    "btnDiscover": "SCOPRI I SERVIZI"
+  },
+  "ChoosePath": {
+    "titleNormal": "Scegli il tuo ",
+    "titleHighlight": "percorso.",
+    "subtitle": "Automazione su misura o prodotti pronti all'uso.",
+    "card1": {
+      "titleNormal": "AI Transformation ",
+      "titleHighlight": "Partner",
+      "desc": "Formazione, Analisi e Sviluppo. Insegniamo al tuo team a usare l'IA ogni giorno. Analizziamo i tuoi processi per capire dove implementare l'IA, eliminare i colli di bottiglia e sviluppare soluzioni su misura.",
+      "btn": "INIZIA ORA"
+    },
+    "card2": {
+      "titleNormal": "Prisma ",
+      "titleHighlight": "Agent",
+      "desc": "L'agente AI per il reporting su WhatsApp. Prisma contatta il team e trasforma note vocali, foto e messaggi in dati strutturati e report settimanali. Risparmia 20 minuti al giorno per dipendente.",
+      "btn": "SCOPRI PRISMA"
+    }
+  },
+
+
+  "Impact": {
+    "titleNormal": "Il Nostro ",
+    "titleHighlight": "Impatto",
+    "stat1Number": "60+",
+    "stat1Label": "AZIENDE PARTNER",
+    "stat2Number": "70+",
+    "stat2Label": "SOLUZIONI IN PRODUZIONE",
+    "stat3Number": "5M+",
+    "stat3Label": "UTENTI RAGGIUNTI"
+  },
+
+
+"Stories": {
+  "titleNormal": "Alcune storie di ",
+  "titleHighlight": "Successo.",
+  "challengeTitle": "LA SFIDA",
+  "solutionTitle": "LA NOSTRA SOLUZIONE",
+  "resultLabel1": "GENERATI IN UN SOLO MESE",
+  "resultLabel2": "RECUPERATE / MESE",
+  "resultLabel3": "RISPARMIO / ANNO",
+  "resultLabel4": "CONVERSIONE LEAD",
+  "btn": "Vedi altri casi studio",
+  "bluvacanze": {
+    "challengeDesc": "Un archivio di migliaia di contatti inattivi. Un vero tesoro commerciale, ma impossibile da gestire manualmente.",
+    "solutionDesc": "Un agente AI che avvia conversazioni proattive su WhatsApp, profila l'utente e propone viaggi personalizzati."
+  },
+  "dolomiti": {
+    "challengeDesc": "Rendicontazione dai cantieri lenta e caotica. Note vocali perse, fogli di carta e ritardi amministrativi.",
+    "solutionDesc": "È qui che è nato Prisma. L'agente che trascrive messaggi vocali e foto dal cantiere direttamente nel gestionale."
+  },
+  "restworld": {
+    "challengeDesc": "Un flusso costante di lead non qualificati che rallentava il team commerciale, con tempi di risposta troppo lunghi.",
+    "solutionDesc": "Un filtro intelligente attivo 24/7. L'Agente AI analizza le risposte e passa ai commerciali solo le opportunità concrete."
+  }
+},
+
+
+
+
+
+
+
+
+  "Contact": {
+    "badge": "CONTATTACI",
+    "titleNormal": "Parliamo del tuo",
+    "titleHighlight": "progetto.",
+    "subtitle": "Compila il form qui sotto per fissare una call conoscitiva.",
+    "form": {
+      "name": "Nome e Cognome *",
+      "email": "Email aziendale *",
+      "phone": "Numero di telefono",
+      "company": "Nome azienda *",
+      "role": "Qual è il ruolo della tua azienda? *",
+      "service": "A quale servizio sei interessato? *",
+      "project": "Descrivici in modo specifico il progetto *",
+      "revenue": "Fatturato annuale",
+      "website": "Sito web aziendale",
+      "size": "Dimensioni dell'azienda *",
+      "investment": "Investimento per il progetto *",
+      "source": "Come hai sentito parlare di noi? *",
+      "submit": "Invia Richiesta"
+    },
+    "placeholders": {
+      "role": "es. CEO, Marketing Manager, Developer..."
+    }
+  
+},
+
+
+
+
+
+
+
+ "Footer": {
+  "heroText": "Il tuo Partner AI a 360 Gradi.",
+  "subHero": "Trasformiamo il modo in cui le aziende lavorano attraverso l'Intelligenza Artificiale.",
+  "copyright": "© 2026 MARTES AI S.R.L. TUTTI I DIRITTI RISERVATI.",
+  "links": {
+    "servizi": "Servizi",
+    "risorse": "Risorse",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Termini di Servizio",
+    "cookie": "Cookie Policy",
+    "cases": "Casi Studio",
+    "contact": "Contattaci"
+  }
+},
+
+
+
+"aboutUs": {
+    "badge": "Il Nostro Team",
+    "titleMain": "Il Nostro",
+    "titleItalic": "Team",
+    "description": "Un team multidisciplinare dedicato alla tua crescita.",
+    "clickToClose": "Clicca per chiudere",
+    "members": {
+      "member1": {
+        "name": "Riccardo Belli Contarini",
+        "role": "CEO & FONDATORE",
+        "desc": "Ingegnere informatico. Democratizzare l'IA attraverso la divulgazione e YouTube."
+      },
+      "member2": {
+        "name": "Andrea Belli Contarini",
+        "role": "CTO & CO-FONDATORE",
+        "desc": "Fisico computazionale specializzato in machine learning. Porta rigore scientifico alle soluzioni IA."
+      },
+      "member3": {
+        "name": "Tommaso Misiti",
+        "role": "SVILUPPATORE FRONT-END",
+        "desc": "Esperto nella creazione di applicazioni web moderne e scalabili con focus sulle performance."
+      },
+      "member4": {
+        "name": "INGEGNERE DEL SOFTWARE",
+        "role": "SOFTWARE ENGINEER",
+        "desc": "Appassionato di sistemi backend e progettazione architettonica per strumenti IA complessi."
+      },
+      "member5": {
+        "name": "Filippo Bartoletti",
+        "role": "INGEGNERE DEL SOFTWARE",
+        "desc": "Specializzato nella creazione di esperienze utente fluide e gestione efficiente dei dati."
+      },
+      "member6": {
+        "name": "Giovanni Fiore",
+        "role": "INGEGNERE DEL SOFTWARE",
+        "desc": "Ingegnere informatico. Crea interfacce intuitive per rendere l'IA accessibile."
+      },
+      "member7": {
+        "name": "Luca Tam",
+        "role": "INGEGNERE DEL SOFTWARE",
+        "desc": "Si occupa dello sviluppo di soluzioni software robuste per implementazioni su larga scala."
+      },
+      "member8": {
+        "name": "Ilaria Pretolani",
+        "role": "CFO",
+        "desc": "Gestisce la strategia finanziaria e le operazioni per garantire una crescita sostenibile."
+      }
+    }
+  }
+
+
+}
