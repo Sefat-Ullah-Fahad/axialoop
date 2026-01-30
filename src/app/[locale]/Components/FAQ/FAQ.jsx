@@ -13,12 +13,10 @@ const FAQSection = () => {
 
   return (
     <section className="relative bg-[#080808] text-white py-24 px-6 overflow-hidden">
-      {/* Background Subtle Glow - Section alada korar jonno */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-gradient-to-r from-transparent via-[#51CB20]/30 to-transparent" />
       
       <div className="max-w-4xl mx-auto relative z-10">
         
-        {/* Header */}
         <div className="text-center mb-20">
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
@@ -35,7 +33,7 @@ const FAQSection = () => {
             </span>
           </motion.div>
 
-          <h2 className="text-5xl md:text-7xl font-semibold tracking-tight mb-6 leading-[1.1]">
+          <h2 className="text-4xl md:text-5xl font-semibold tracking-tight mb-6 leading-[1.1]">
             {t('titleNormal')} <br />
             <span className="text-[#51CB20] italic font-serif font-light">{t('titleHighlight')}</span>
           </h2>
