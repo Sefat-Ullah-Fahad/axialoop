@@ -168,9 +168,44 @@
       }
     }
 
+  },
 
 
 
 
-  }
+  "FAQ": {
+    "badge": "Support",
+    "titleNormal": "Frequently Asked",
+    "titleHighlight": "Questions",
+    "subtitle": "Everything you need to know about our AI services.",
+    "items": [
+      {
+        "question": "What is Martes AI and how does it work?",
+        "answer": "Martes AI is a multidisciplinary team that helps companies scale using AI and automation. We create custom AI agents and intelligent workflows to speed up your business operations."
+      },
+      {
+        "question": "What services do you provide as an AI Transformation Partner?",
+        "answer": "We provide process automation, WhatsApp AI agents, and operational reporting automation. Our goal is to reduce manual tasks and increase efficiency for your business."
+      },
+      {
+        "question": "How will a WhatsApp AI Agent benefit my business?",
+        "answer": "Based on our success stories, our AI agents have generated significant revenue (e.g., €82,271 in a month for Bluvacanze). It provides 24/7 customer support and helps qualify leads automatically."
+      },
+      {
+        "question": "How long does it take to get a custom solution?",
+        "answer": "The timeline depends on the complexity of the project. However, we can often implement initial automations within a few weeks to start relieving pressure from your team."
+      },
+      {
+        "question": "How can I start discussing my project with you?",
+        "answer": "It's simple! Click the 'Book a Call' button on our site to schedule a meeting or fill out our contact form. Our team will analyze your project and get back to you quickly."
+      }
+    ]
+ 
+}
+
+
+
+
+
+
 }

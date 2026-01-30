@@ -5,6 +5,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --color-primary: #5B8BA5;
+  --color-secondary: #51CB20;
 }
 
 @theme inline {

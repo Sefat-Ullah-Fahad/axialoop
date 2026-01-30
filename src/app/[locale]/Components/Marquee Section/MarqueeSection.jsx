@@ -4,39 +4,38 @@ import Marquee from "react-fast-marquee";
 
 const MarqueeSection = () => {
   const logos = [
-    "allcore-DlACiny8.png", "Aquadra-CvcURKOr.png", "citybeach-DdGrCnKL.png",
-    "clinica_santa_lucia-D7-b74d-.png", 
-    "ecommerceparts-logo-B6MilpeZ.png", "fantozzi-3PRnpbWI.png", "gsp_logo-CaKSaZML.png",
-    "kerberos-Photoroom-DtKdw7Th.png", "logo_divinea-BTk_agLy.png", "logo-bluvacanze-xoM7PZ0A.png",
-    "Logo-Build-Up-_ihOBvEb.png", "monni_srl-CbL7bDbO.png", "neutralia-logo-D1JM_OEA.png",
-    "restworld-CXfPOzoe.png", "shapeup-Photoroom-WbWnJl-s.png", "turnover-Photoroom-BRtAkjc-.png",
-    "winesuite_logo-Photoroom-C01_axl6.png"
+    "images.jpeg", "chatgpt.avif" ,"aws-color.webp", "azure-color.webp", 
+    "gemini-color.webp", "googlecloud-color.webp", "langchain-color.webp",
+    "make-color.webp", "images (1).jpeg", "n8n-color.webp", "vertexai-color.webp"
   ];
 
   return (
-    // Background set to black
-    <section className="w-full py-20 overflow-hidden bg-black">
-      <div className="max-w-7xl mx-auto relative px-4">
+    /* মেইন সেকশন ডার্ক ব্যাকগ্রাউন্ডে থাকবে */
+    <section className="w-full py-16 bg-[#0a0a0a]">
+      {/* এখানে max-w-7xl ব্যবহার করা হয়েছে যেন স্লাইডারটি আপনার কন্টেন্ট এরিয়ার সাথে এলাইন থাকে */}
+      <div className="max-w-7xl mx-auto px-4 overflow-hidden">
         
         <Marquee 
           gradient={true} 
-          // Gradient color matched with black background
-          gradientColor="black" 
-          gradientWidth={150}
-          speed={70} // Speed slightly adjusted for smoother feel
+          gradientColor="#0a0a0a" 
+          gradientWidth={50} // সীমানার ভেতরে অল্প শ্যাডো দিলে প্রিমিয়াম লাগে
+          speed={120}
+          pauseOnHover={true}
+          autoFill={true} 
         >
           {logos.map((logo, index) => (
             <div 
               key={index} 
-              className="mx-10 flex items-center justify-center w-[200px] h-[80px]" 
+              // লোগোর সাইজ এবং গ্যাপ আপনার চাহিদা মতো বড় রাখা হয়েছে
+              className="mx-8 flex items-center justify-center w-[180px] h-[100px]" 
             >
-              
               <img 
                 src={`/assets/images/${logo}`} 
                 alt={`Partner ${index}`} 
-              
-                className="max-h-full max-w-full w-auto h-auto object-contain grayscale invert opacity-60 hover:grayscale-0 hover:invert-0 hover:opacity-100 transition-all duration-500"
-                onError={(e) => (e.currentTarget.style.display = 'none')}
+                className="max-h-[80px] w-auto object-contain filter grayscale opacity-100 hover:grayscale-0 hover:opacity-100 hover:scale-110 transition-all duration-500 cursor-pointer"
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none';
+                }}
               />
             </div>
           ))}

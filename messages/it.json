@@ -174,6 +174,35 @@
         "desc": "Gestisce la strategia finanziaria e le operazioni per garantire una crescita sostenibile."
       }
     }
+  },
+
+  "FAQ": {
+    "badge": "Supporto",
+    "titleNormal": "Domande",
+    "titleHighlight": "Frequenti",
+    "subtitle": "Tutto quello che devi sapere sui nostri servizi AI.",
+    "items": [
+      {
+        "question": "Cos'è Martes AI e come funziona?",
+        "answer": "Martes AI è un team multidisciplinare che aiuta le aziende a scalare utilizzando l'IA e l'automazione. Creiamo agenti IA personalizzati e flussi di lavoro intelligenti per accelerare le operazioni aziendali."
+      },
+      {
+        "question": "Quali servizi fornite come AI Transformation Partner?",
+        "answer": "Forniamo automazione dei processi, agenti IA per WhatsApp e automazione della reportistica operativa. Il nostro obiettivo è ridurre le attività manuali e aumentare l'efficienza della tua azienda."
+      },
+      {
+        "question": "Quali vantaggi trarrà la mia azienda da un agente IA su WhatsApp?",
+        "answer": "Secondo le nostre storie di successo, i nostri agenti IA hanno generato ricavi significativi (es. €82.271 in un mese per Bluvacanze). Fornisce assistenza clienti 24/7 e aiuta a qualificare i lead automaticamente."
+      },
+      {
+        "question": "Quanto tempo ci vuole per ottenere una soluzione personalizzata?",
+        "answer": "I tempi dipendono dalla complessità del progetto. Tuttavia, spesso riusciamo a implementare le prime automazioni in poche settimane per iniziare a ridurre il carico di lavoro del tuo team."
+      },
+      {
+        "question": "Come posso iniziare a discutere del mio progetto con voi?",
+        "answer": "È semplice! Clicca sul pulsante 'Prenota una chiamata' sul nostro sito per fissare un incontro o compila il nostro modulo di contatto. Il nostro team analizzerà il tuo progetto e ti risponderà rapidamente."
+      }
+    ]
   }
 
 
