@@ -201,7 +201,104 @@
       }
     ]
  
-}
+},
+
+
+
+
+"title": "Privacy Policy",
+    "lastUpdated": "Last updated: 04/01/2026",
+    "intro": "This Privacy Policy describes our policies and procedures relative to the collection, use, and disclosure of information when using the Service and explains the privacy rights and how the law protects them.",
+    "consent": "We use Your personal data to provide and improve the Service. By using the Service, You consent to the collection and use of information in accordance with this Privacy Policy.",
+    "sections": [
+      {
+        "id": "interpretation-definitions",
+        "heading": "Interpretation and Definitions",
+        "subHeading": "Interpretation",
+        "text": "Words whose initial is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or plural.",
+        "definitionsHeading": "Definitions",
+        "definitionsSubText": "For the purposes of this Privacy Policy:",
+        "definitions": [
+          "**Account** means a unique account created to allow You access to our Service or parts of it.",
+          "**Affiliate** means an entity that controls, is controlled by, or is under common control with a party.",
+          "**Company** (referred to as 'the Company', 'We', 'Us' or 'Our') refers to Martes AI.",
+          "**Cookies** are small files placed on Your device.",
+          "**Country** refers to: Italy.",
+          "**Device** means any device that can access the Service.",
+          "**Personal Data** means any information relating to an identified or identifiable individual.",
+          "**Service** refers to the Website.",
+          "**Service Provider** means any natural or legal person who processes data on behalf of the Company.",
+          "**Usage Data** indicates data collected automatically.",
+          "**Website** refers to Martes AI, accessible from https://www.martes-ai.com/",
+          "**You** indicates the individual accessing or using the Service."
+        ]
+      },
+      {
+        "id": "collecting-using-data",
+        "heading": "Collection and Use of Your Personal Data",
+        "subHeading": "Types of Data Collected",
+        "subSubHeading": "Personal Data",
+        "text": "While using our Service, we may ask You to provide us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include:",
+        "list": ["Email address", "First name and last name", "Usage Data"],
+        "extraSections": [
+          {
+            "title": "Usage Data",
+            "content": "Usage Data is collected automatically during the use of the Service. It may include IP address, browser type, pages visited, date and time, and device identifiers."
+          },
+          {
+            "title": "Tracking Technologies and Cookies",
+            "content": "We use Cookies and similar tracking technologies.",
+            "subList": [
+              "**Necessary Cookies:** Essential for the service.",
+              "**Functionality Cookies:** To remember choices."
+            ],
+            "footer": "For more information, visit our Cookie Policy."
+          }
+        ]
+      },
+      {
+        "id": "use-of-data",
+        "heading": "Use of Your Personal Data",
+        "text": "The Company may use Personal Data to:",
+        "list": [
+          "Provide and maintain the Service.",
+          "Manage Your Account.",
+          "Execution of a contract.",
+          "Contact You via email or other channels.",
+          "Provide news and offers.",
+          "Manage Your requests."
+        ]
+      },
+      {
+        "id": "retention-transfer",
+        "heading": "Data Retention",
+        "text": "We will retain data only for the time necessary for the stated purposes and to fulfill legal obligations.",
+        "subHeading": "Data Transfer",
+        "subText": "Data is processed at the Company's offices and may be transferred to computers outside Your jurisdiction, always ensuring adequate security."
+      },
+      {
+        "id": "changes-contact",
+        "heading": "Changes to the Privacy Policy",
+        "text": "We may update our Privacy Policy. We will inform of changes on this page.",
+        "subHeading": "Contact Us",
+        "subText": "For questions about the Privacy Policy:",
+        "email": "contact@martes-ai.com"
+      }
+    ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

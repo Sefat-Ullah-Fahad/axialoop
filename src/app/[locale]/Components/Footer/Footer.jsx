@@ -85,15 +85,23 @@ const Footer = () => {
               {t("links.legal")}
             </h3>
             <ul className="space-y-4 text-sm font-medium">
-              <li className="hover:text-[#5B8BA5] cursor-pointer transition-colors">
+              <Link href={"/privacy"}>
+              <li className="hover:text-[#5B8BA5] pb-4  cursor-pointer transition-colors">
                 {t("links.privacy")}
               </li>
-              <li className="hover:text-[#5B8BA5] cursor-pointer transition-colors">
+              </Link>
+
+             <Link href={"/terms"}>
+              <li className="hover:text-[#5B8BA5] pb-4  cursor-pointer transition-colors">
                 {t("links.terms")}
               </li>
+             </Link>
+
+             <Link href={"/cookiePolicy"}>
               <li className="hover:text-[#5B8BA5] cursor-pointer transition-colors">
                 {t("links.cookie")}
               </li>
+             </Link>
             </ul>
           </div>
         </div>
