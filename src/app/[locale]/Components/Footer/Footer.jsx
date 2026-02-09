@@ -35,8 +35,8 @@ const Footer = () => {
               </Link>
             </div>
             <div className="text-sm leading-relaxed space-y-4">
-              <p className="text-gray-700">{t("heroText")}</p>
-              <p className="text-gray-700">{t("subHero")}</p>
+              <p className="">{t("heroText")}</p>
+              <p className="">{t("subHero")}</p>
               <div className="mt-8 pt-4 text-[11px] space-y-1 opacity-80 leading-5">
                 <p className="font-bold text-black">Martes AI S.R.L.</p>
                 <p>Via Aurelia 325 Roma</p>
