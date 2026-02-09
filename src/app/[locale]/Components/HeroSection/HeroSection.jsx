@@ -179,7 +179,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.7, ease: "easeOut" }}
           className="flex flex-col sm:flex-row items-center gap-4 md:gap-6"
         >
-          <button className="hoverable bg-[#5B8BA5] hover:bg-[#487f9d] text-white px-8 py-4 rounded-full text-sm font-bold uppercase tracking-wide flex items-center gap-2 group transition-all hover:scale-104 hover:shadow-[0_0_25px_rgba(255,255,255,0.4)]">
+          <button className="hoverable cursor-pointer bg-[#5B8BA5] hover:bg-[#487f9d] text-white px-8 py-4 rounded-full text-sm font-bold uppercase tracking-wide flex items-center gap-2 group transition-all hover:scale-104 hover:shadow-[0_0_25px_rgba(255,255,255,0.4)]">
             {t("btnStart")}
             <ArrowRight
               size={18}
@@ -187,7 +187,7 @@ export default function HeroSection() {
             />
           </button>
 
-          <button className="px-8 py-5 text-white font-semibold text-[10px] md:text-xs uppercase tracking-[0.2em] rounded-full transition-all border border-[#5B8BA5] duration-300 hover:text-white hover:bg-[#5B8BA5] hover:backdrop-blur-md">
+          <button className="px-8 py-5 cursor-pointer text-white font-semibold text-[10px] md:text-xs uppercase tracking-[0.2em] rounded-full transition-all border border-[#5B8BA5] duration-300 hover:text-white hover:bg-[#5B8BA5] hover:backdrop-blur-md">
             {t("btnDiscover")}
           </button>
         </motion.div>

@@ -1,144 +1,97 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import { useTranslations } from "next-intl";
-
-const teamMembersData = [
-  {
-    id: 1,
-    img: "/assets/team/riccardo-7Xnr19HD.png",
-    social: { linkedin: "#", youtube: "#" },
-  },
-  { id: 2, img: "/assets/team/andrea-CnTGcT5p.png", social: { linkedin: "#" } },
-  {
-    id: 3,
-    img: "/assets/team/tommaso-D6UXRBo-.png",
-    social: { linkedin: "#" },
-  },
-  { id: 4, img: "/assets/team/paolo-CJCYYSBg.png", social: { linkedin: "#" } },
-  {
-    id: 5,
-    img: "/assets/team/filippo-vuTm_iSY.png",
-    social: { linkedin: "#" },
-  },
-  {
-    id: 6,
-    img: "/assets/team/giovanni-B5FrXoI2.png",
-    social: { linkedin: "#" },
-  },
-  { id: 7, img: "/assets/team/luca-CT9Sf4L-.png", social: { linkedin: "#" } },
-  { id: 8, img: "/assets/team/ilaria-2lG1fWpG.png", social: { linkedin: "#" } },
-];
+import { motion } from "framer-motion";
 
 const AboutUs = () => {
   const t = useTranslations("aboutUs");
-  const [activeCard, setActiveCard] = useState(null);
-
-  const toggleCard = (id) => {
-    setActiveCard(activeCard === id ? null : id);
-  };
 
   return (
-    <div className="bg-black text-white py-24 px-6 min-h-screen">
-      <div className="text-center mb-20">
-        <div className="inline-block border border-[#1e3a2a] bg-[#051109] rounded-full px-4 py-1 mb-8">
-          <span className="text-[#51CB20] text-[11px] font-bold uppercase tracking-widest">
-            {t("badge")}
-          </span>
+    <section className="bg-black text-white py-24 mt-10 px-6 min-h-screen relative overflow-hidden">
+      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[#51CB20]/5 blur-[120px] rounded-full pointer-events-none" />
+      
+      <div className="max-w-7xl mx-auto relative z-10">
+        <div className="mb-20">
+          <motion.div 
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="inline-block border border-[#51CB20]/30 bg-[#51CB20]/5 rounded-full px-4 py-1 mb-6"
+          >
+            <span className="text-[#51CB20] text-[10px] font-bold uppercase tracking-[0.2em]">
+              {t("badge")}
+            </span>
+          </motion.div>
+
+          <motion.h2 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }}
+            className="text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight leading-[1.1]"
+          >
+            {t("titleMain")}<br />
+            <span className="italic font-serif font-light text-[#51CB20]">
+              {t("titleItalic")}
+            </span>
+          </motion.h2>
         </div>
 
-        <h2 className="text-5xl md:text-7xl font-semibold mb-6">
-          {t("titleMain")}{" "}
-          <span className="italic font-serif font-light text-[#51CB20]">
-            {t("titleItalic")}
-          </span>
-        </h2>
-
-        <p className="text-gray-400 mt-4 text-lg max-w-2xl mx-auto font-light">
-          {t("description")}
-        </p>
-      </div>
-
-      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {teamMembersData.map((member) => (
-          <div
-            key={member.id}
-            onClick={() => toggleCard(member.id)}
-            className={`group relative h-[450px] rounded-[24px] cursor-pointer transition-all duration-500 overflow-hidden border ${
-              activeCard === member.id
-                ? "border-[#51CB20]/50 shadow-[0_0_20px_rgba(81,203,32,0.1)]"
-                : "border-white/5 hover:border-white/20"
-            } bg-[#0D0D0D]`}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24 border-t border-white/10 pt-16">
+          
+          <motion.div 
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2 }}
+            className="lg:col-span-7 space-y-10"
           >
-            <div
-              className={`absolute inset-0 transition-all duration-700 ease-in-out ${
-                activeCard === member.id
-                  ? "opacity-0 translate-y-[-20px] scale-90"
-                  : "opacity-100 translate-y-0 scale-100"
-              }`}
-            >
-              <div className="h-[350px] w-full flex items-end justify-center overflow-hidden">
-                <img
-                  src={member.img}
-                  alt={t(`members.member${member.id}.name`)}
-                  className="w-full h-full object-contain object-bottom transition-transform duration-500 group-hover:scale-105"
-                />
-              </div>
-
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-              <div className="absolute bottom-0 left-0 right-0 p-8 text-center bg-black/40 backdrop-blur-sm">
-                <h3 className="text-lg font-bold tracking-tight text-white mb-1">
-                  {t(`members.member${member.id}.name`)}
-                </h3>
-                <p className="text-[#51CB20] text-[10px] font-bold tracking-widest uppercase">
-                  {t(`members.member${member.id}.role`)}
-                </p>
-              </div>
+            <div>
+               <h3 className="text-[#51CB20] text-xs font-bold uppercase tracking-[0.4em] mb-8 opacity-70">
+                 {t("storyTitle")}
+               </h3>
+               <div className="space-y-8 text-gray-300 text-lg md:text-xl font-light leading-relaxed">
+                 <p className="text-white text-2xl font-medium leading-snug">
+                   {t("storyP1")}
+                 </p>
+                 <p>{t("storyP2")}</p>
+                 <p>{t("storyP3")}</p>
+                 <p className="text-[#51CB20]/90 font-normal italic">
+                   {t("storyP4")}
+                 </p>
+               </div>
             </div>
+          </motion.div>
 
-            <div
-              className={`absolute inset-0 p-10 flex flex-col justify-center items-center text-center transition-all duration-700 ease-out bg-[#050505] ${
-                activeCard === member.id
-                  ? "opacity-100 translate-y-0 visible"
-                  : "opacity-0 translate-y-10 invisible pointer-events-none"
-              }`}
-            >
-              <div className="mb-6">
-                <div className="w-12 h-1 bg-[#51CB20] mx-auto rounded-full mb-6"></div>
-                <p className="text-gray-300 text-base md:text-lg leading-relaxed font-light italic">
-                  "{t(`members.member${member.id}.desc`)}"
-                </p>
-              </div>
+          <motion.div 
+            initial={{ opacity: 0, x: 20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.3 }}
+            className="lg:col-span-5"
+          >
+            <div className="bg-gradient-to-br from-white/[0.03] to-transparent p-10 rounded-2xl border border-white/5 relative overflow-hidden group hover:border-[#51CB20]/20 transition-all duration-700">
+               <div className="absolute top-0 left-0 w-1 h-full bg-[#51CB20]/40 group-hover:bg-[#51CB20] transition-colors duration-700" />
+               
+               <h3 className="text-2xl font-semibold text-white mb-6">
+                 {t("missionTitle")}
+               </h3>
+               
+               <p className="text-gray-400 text-lg leading-relaxed font-light">
+                 {t("missionContent")}
+               </p>
 
-              <div className="flex gap-4 mb-10">
-                {member.social.linkedin && (
-                  <a
-                    href={member.social.linkedin}
-                    onClick={(e) => e.stopPropagation()}
-                    className="w-10 h-10 bg-[#121212] rounded-full flex items-center justify-center text-gray-400 hover:text-[#51CB20] border border-white/5 transition-colors"
-                  >
-                    <span className="text-xs font-bold">IN</span>
-                  </a>
-                )}
-                {member.social.youtube && (
-                  <a
-                    href={member.social.youtube}
-                    onClick={(e) => e.stopPropagation()}
-                    className="w-10 h-10 bg-[#121212] rounded-full flex items-center justify-center text-gray-400 hover:text-red-500 border border-white/5 transition-colors"
-                  >
-                    <span className="text-sm">▶</span>
-                  </a>
-                )}
-              </div>
-
-              <button className="text-gray-500 text-[9px] font-bold uppercase tracking-[3px] hover:text-white transition-colors">
-                {t("clickToClose")}
-              </button>
+               <div className="mt-12 flex items-center gap-3">
+                 <div className="w-2 h-2 rounded-full bg-[#51CB20]" />
+                 <span className="text-[10px] uppercase tracking-widest text-gray-500 font-bold">Axialoop Vision</span>
+               </div>
             </div>
-          </div>
-        ))}
+          </motion.div>
+
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

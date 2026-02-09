@@ -14,64 +14,61 @@
     "btnStart": "START NOW",
     "btnDiscover": "DISCOVER SERVICES"
   },
+
   "ChoosePath": {
-    "titleNormal": "Choose your ",
-    "titleHighlight": "path.",
-    "subtitle": "Tailored automation or ready-to-use products.",
+    "titleNormal": "Choose your",
+    "titleHighlight": "path",
+    "subtitle": "Select the way you want to work with us",
     "card1": {
-      "titleNormal": "AI Transformation ",
+      "badge": "Partner",
+      "titleNormal": "AI Transformation",
       "titleHighlight": "Partner",
-      "desc": "Training, Analysis, and Development. We teach your team to use AI every day. We analyze your processes to understand where to implement AI, eliminate bottlenecks, and develop tailored solutions.",
-      "btn": "START NOW"
+      "desc": "Tell us where you're losing time. You know your business, we know what can be automated. Together we identify the bottlenecks and guide you step by step toward leaner processes. No revolutions: just hours given back.",
+      "btn": "Start your journey"
     },
     "card2": {
-      "titleNormal": "Prisma ",
-      "titleHighlight": "Agent",
-      "desc": "The AI agent for WhatsApp reporting. Prisma contacts the team and transforms voice notes, photos, and messages into structured data and weekly reports. Save 20 minutes per day per employee.",
-      "btn": "DISCOVER PRISMA"
+      "badge": "Solution",
+      "titleNormal": "Plug &",
+      "titleHighlight": "Play",
+      "desc": "Got a clear problem? We already have the answer. Ready-to-use solutions for the most common challenges: email management, document sorting, automated customer support. Pick, activate, save time.",
+      "btn": "Explore solutions"
     }
   },
 
-
-
- "Impact": {
-    "titleNormal": "Our ",
+  "Impact": {
+    "titleNormal": "Our",
     "titleHighlight": "Impact",
-    "stat1Number": "60+",
-    "stat1Label": "PARTNER COMPANIES",
-    "stat2Number": "70+",
-    "stat2Label": "SOLUTIONS IN PRODUCTION",
-    "stat3Number": "5M+",
-    "stat3Label": "USERS REACHED" 
+    "stat1Label": "Businesses transformed",
+    "stat2Label": "Average weekly hours saved per client",
+    "stat3Label": "Reached users"
   },
 
-
- "Stories": {
-  "titleNormal": "Some stories of ",
-  "titleHighlight": "Success.",
-  "challengeTitle": "THE CHALLENGE",
-  "solutionTitle": "OUR SOLUTION",
-  "resultLabel1": "GENERATED IN JUST ONE MONTH",
-  "resultLabel2": "RECOVERED / MONTH",
-  "resultLabel3": "SAVINGS / YEAR",
-  "resultLabel4": "LEAD CONVERSION",
-  "btn": "See other case studies",
-  "bluvacanze": {
-    "challengeDesc": "An archive of thousands of inactive contacts. A true commercial treasure, but impossible to manage manually.",
-    "solutionDesc": "An AI agent that initiates proactive conversations on WhatsApp, profiles the user, and proposes personalized trips."
+  "Stories": {
+    "titleNormal": "Our Impact &",
+    "titleHighlight": "Success",
+    "challengeTitle": "THE CHALLENGE",
+    "solutionTitle": "THE SOLUTION",
+    "resultLabel": "GENERATED",
+    "btn": "Work with us",
+    "evaliscert": {
+      "label": "Evaliscert",
+      "industry": "Industry: Certification Body",
+      "challengeDesc": "A third-party auditor handling dozens of cases monthly. Each document required 3-4 hours of manual processing. Client acquisition depended on expensive external marketing agencies, with no control over results.",
+      "solutionDesc": "We automated the entire document workflow while ensuring full compliance and privacy regulations. Then we built a fully autonomous outreach and lead generation system. Today each case takes 10 minutes. New clients come in without intermediaries."
+    },
+    "fashion": {
+      "label": "Fashion Franchise",
+      "industry": "Industry: Fashion Franchise",
+      "challengeDesc": "A retail chain with physical stores and an online shop. Inventory managed manually, orders getting lost between channels, slow shipping to customers and suppliers. Every sale required too many manual steps.",
+      "solutionDesc": "Complete automation of the online store: from order to shipping, zero human intervention. Inventory synced in real-time between physical and digital. Sales and logistics management unified into a single automated flow."
+    },
+    "realestate": {
+      "label": "Real Estate Agency",
+      "industry": "Industry: Real Estate Agency",
+      "challengeDesc": "Thousands of contacts in the CRM, but most of them dormant. No system to reactivate cold leads. Contracts, privacy documents, and invoices managed through emails and spreadsheets. Time wasted, opportunities missed.",
+      "solutionDesc": "We built an automated system for lead reactivation, qualification, and nurturing. Every contact is followed up without manual intervention. Document management—contracts, privacy forms, reports, invoices—is now fully automated."
+    }
   },
-  "dolomiti": {
-    "challengeDesc": "Reporting from construction sites was slow and chaotic. Lost voice notes, paper sheets, and administrative delays.",
-    "solutionDesc": "This is where Prisma was born. The agent that transcribes voice messages and photos from the site directly into the management system."
-  },
-  "restworld": {
-    "challengeDesc": "A constant flow of unqualified leads that slowed down the sales team, with response times that were too long.",
-    "solutionDesc": "An intelligent filter active 24/7. The AI Agent analyzes responses and passes only concrete opportunities to the salespeople."
-  }
-},
-
-
-
 
   "Contact": {
     "badge": "CONTACT US",
@@ -96,213 +93,142 @@
     "placeholders": {
       "role": "e.g. CEO, Marketing Manager, Developer..."
     }
-  
-}
-,
-
-
-"Footer": {
-  "heroText": "Your 360-Degree AI Partner.",
-  "subHero": "We transform the way companies work through Artificial Intelligence.",
-  "copyright": "© 2026 MARTES AI S.R.L. ALL RIGHTS RESERVED.",
-  "links": {
-    "servizi": "Services",
-    "risorse": "Resources",
-    "legal": "Legal",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "cookie": "Cookie Policy",
-    "cases": "Case Studies",
-    "contact": "Contact Us"
-  }
-},
-
-
-
-"aboutUs": {
-    "badge": "Our Team",
-    "titleMain": "Our",
-    "titleItalic": "Team",
-    "description": "A multidisciplinary team dedicated to your growth.",
-    "clickToClose": "Click to close",
-    "members": {
-      "member1": {
-        "name": "Riccardo Belli Contarini",
-        "role": "CEO & FOUNDER",
-        "desc": "Computer engineer. Democratizing AI through outreach and YouTube."
-      },
-      "member2": {
-        "name": "Andrea Belli Contarini",
-        "role": "CTO & CO-FOUNDER",
-        "desc": "Computational physicist specialized in machine learning. Brings scientific rigor to AI solutions."
-      },
-      "member3": {
-        "name": "Tommaso Misiti",
-        "role": "FRONT-END DEVELOPER",
-        "desc": "Expert in building modern, scalable web applications with a focus on performance."
-      },
-      "member4": {
-        "name": "Paolo Pagliarini",
-        "role": "SOFTWARE ENGINEER",
-        "desc": "Passionate about backend systems and architectural design for complex AI tools."
-      },
-      "member5": {
-        "name": "Filippo Bartoletti",
-        "role": "SOFTWARE ENGINEER",
-        "desc": "Specialized in creating seamless user experiences and efficient data handling."
-      },
-      "member6": {
-        "name": "Giovanni Fiore",
-        "role": "SOFTWARE ENGINEER",
-        "desc": "Computer engineer. Creates intuitive interfaces to make AI accessible."
-      },
-      "member7": {
-        "name": "Luca Tam",
-        "role": "SOFTWARE ENGINEER",
-        "desc": "Focuses on developing robust software solutions for large-scale deployments."
-      },
-      "member8": {
-        "name": "Ilaria Pretolani",
-        "role": "CFO",
-        "desc": "Manages financial strategy and operations to ensure sustainable growth."
-      }
+  },
+  "Footer": {
+    "heroText": "Your 360-Degree AI Partner.",
+    "subHero": "We transform the way companies work through Artificial Intelligence.",
+    "copyright": "© 2026 MARTES AI S.R.L. ALL RIGHTS RESERVED.",
+    "links": {
+      "servizi": "Services",
+      "risorse": "Resources",
+      "legal": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookie": "Cookie Policy",
+      "cases": "Case Studies",
+      "contact": "Contact Us"
     }
-
   },
 
-
-
+  "aboutUs": {
+    "badge": "About Us",
+    "titleMain": "A story of",
+    "titleItalic": "necessity, not trends.",
+    "storyTitle": "The Story",
+    "storyP1": "Axialoop wasn't born in an accelerator or from a pitch deck. It was born from urgency.",
+    "storyP2": "When my father's company was struggling, I realized the problem wasn't lack of effort. It was time: devoured by emails, documents, data entry, bureaucracy. Hours that never came back.",
+    "storyP3": "I started automating. One process at a time. No revolutions, just concrete solutions. Within months, that company started breathing again.",
+    "storyP4": "Today Axialoop replicates that journey for Italian SMEs. We don't sell hype. We sell time and growth.",
+    "missionTitle": "Our Mission",
+    "missionContent": "To democratize artificial intelligence for small and medium-sized Italian enterprises. To transform complex technologies into simple, accessible, and sustainable tools. To free entrepreneurs from the slavery of repetitive tasks, so they can get back to what matters: growing their business."
+  },
 
   "FAQ": {
-    "badge": "Support",
-    "titleNormal": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about our AI services.",
+    "badge": "Common Questions",
+    "titleNormal": "Everything you need",
+    "titleHighlight": "to know",
+    "subtitle": "Find answers to the most frequent questions about our AI automation services.",
     "items": [
       {
-        "question": "What is Martes AI and how does it work?",
-        "answer": "Martes AI is a multidisciplinary team that helps companies scale using AI and automation. We create custom AI agents and intelligent workflows to speed up your business operations."
+        "question": "What is Axialoop and what do you offer to SMEs?",
+        "answer": "Axialoop is an AI automation agency specialized for small and medium-sized enterprises. We analyze your business processes, identify repetitive tasks that steal time from your employees, and automate them with tailored solutions. The result? Less data entry, fewer errors, more time to grow your business."
       },
       {
-        "question": "What services do you provide as an AI Transformation Partner?",
-        "answer": "We provide process automation, WhatsApp AI agents, and operational reporting automation. Our goal is to reduce manual tasks and increase efficiency for your business."
+        "question": "Is automation suitable for my business?",
+        "answer": "If someone in your company spends hours copying data, sorting emails, managing documents, or answering the same questions, then yes. We work with law firms, logistics companies, certification bodies, manufacturing, and any business with repetitive processes. You don't need to be a tech company: you just need to want your time back."
       },
       {
-        "question": "How will a WhatsApp AI Agent benefit my business?",
-        "answer": "Based on our success stories, our AI agents have generated significant revenue (e.g., €82,271 in a month for Bluvacanze). It provides 24/7 customer support and helps qualify leads automatically."
+        "question": "How does your consulting and automation process work?",
+        "answer": "It's simple: you tell us where you're losing time, we identify what can be automated. We start with a free call to understand your needs, then present a plan with clear priorities and estimated ROI. Once we agree, we implement step-by-step without disrupting your existing processes."
       },
       {
-        "question": "How long does it take to get a custom solution?",
-        "answer": "The timeline depends on the complexity of the project. However, we can often implement initial automations within a few weeks to start relieving pressure from your team."
+        "question": "How much does it cost and when will I see results?",
+        "answer": "Every project is different, but our goal is always the same: help you recover your investment within months. We show you upfront how many hours you'll save and what that time is worth in euros. We don't sell vague promises: we sell concrete numbers."
       },
       {
-        "question": "How can I start discussing my project with you?",
-        "answer": "It's simple! Click the 'Book a Call' button on our site to schedule a meeting or fill out our contact form. Our team will analyze your project and get back to you quickly."
+        "question": "How can I start working with Axialoop?",
+        "answer": "Book a free 30-minute call. You tell us how you work today, we tell you what can be improved. Zero commitment, zero hard selling. If it makes sense for both of us, we move forward. If not, you'll still walk away with useful ideas."
       }
     ]
- 
-},
+  },
 
-
-
-
-"title": "Privacy Policy",
-    "lastUpdated": "Last updated: 04/01/2026",
-    "intro": "This Privacy Policy describes our policies and procedures relative to the collection, use, and disclosure of information when using the Service and explains the privacy rights and how the law protects them.",
-    "consent": "We use Your personal data to provide and improve the Service. By using the Service, You consent to the collection and use of information in accordance with this Privacy Policy.",
-    "sections": [
-      {
-        "id": "interpretation-definitions",
-        "heading": "Interpretation and Definitions",
-        "subHeading": "Interpretation",
-        "text": "Words whose initial is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or plural.",
-        "definitionsHeading": "Definitions",
-        "definitionsSubText": "For the purposes of this Privacy Policy:",
-        "definitions": [
-          "**Account** means a unique account created to allow You access to our Service or parts of it.",
-          "**Affiliate** means an entity that controls, is controlled by, or is under common control with a party.",
-          "**Company** (referred to as 'the Company', 'We', 'Us' or 'Our') refers to Martes AI.",
-          "**Cookies** are small files placed on Your device.",
-          "**Country** refers to: Italy.",
-          "**Device** means any device that can access the Service.",
-          "**Personal Data** means any information relating to an identified or identifiable individual.",
-          "**Service** refers to the Website.",
-          "**Service Provider** means any natural or legal person who processes data on behalf of the Company.",
-          "**Usage Data** indicates data collected automatically.",
-          "**Website** refers to Martes AI, accessible from https://www.martes-ai.com/",
-          "**You** indicates the individual accessing or using the Service."
-        ]
-      },
-      {
-        "id": "collecting-using-data",
-        "heading": "Collection and Use of Your Personal Data",
-        "subHeading": "Types of Data Collected",
-        "subSubHeading": "Personal Data",
-        "text": "While using our Service, we may ask You to provide us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include:",
-        "list": ["Email address", "First name and last name", "Usage Data"],
-        "extraSections": [
-          {
-            "title": "Usage Data",
-            "content": "Usage Data is collected automatically during the use of the Service. It may include IP address, browser type, pages visited, date and time, and device identifiers."
-          },
-          {
-            "title": "Tracking Technologies and Cookies",
-            "content": "We use Cookies and similar tracking technologies.",
-            "subList": [
-              "**Necessary Cookies:** Essential for the service.",
-              "**Functionality Cookies:** To remember choices."
-            ],
-            "footer": "For more information, visit our Cookie Policy."
-          }
-        ]
-      },
-      {
-        "id": "use-of-data",
-        "heading": "Use of Your Personal Data",
-        "text": "The Company may use Personal Data to:",
-        "list": [
-          "Provide and maintain the Service.",
-          "Manage Your Account.",
-          "Execution of a contract.",
-          "Contact You via email or other channels.",
-          "Provide news and offers.",
-          "Manage Your requests."
-        ]
-      },
-      {
-        "id": "retention-transfer",
-        "heading": "Data Retention",
-        "text": "We will retain data only for the time necessary for the stated purposes and to fulfill legal obligations.",
-        "subHeading": "Data Transfer",
-        "subText": "Data is processed at the Company's offices and may be transferred to computers outside Your jurisdiction, always ensuring adequate security."
-      },
-      {
-        "id": "changes-contact",
-        "heading": "Changes to the Privacy Policy",
-        "text": "We may update our Privacy Policy. We will inform of changes on this page.",
-        "subHeading": "Contact Us",
-        "subText": "For questions about the Privacy Policy:",
-        "email": "contact@martes-ai.com"
-      }
-    ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  "title": "Privacy Policy",
+  "lastUpdated": "Last updated: 04/01/2026",
+  "intro": "This Privacy Policy describes our policies and procedures relative to the collection, use, and disclosure of information when using the Service and explains the privacy rights and how the law protects them.",
+  "consent": "We use Your personal data to provide and improve the Service. By using the Service, You consent to the collection and use of information in accordance with this Privacy Policy.",
+  "sections": [
+    {
+      "id": "interpretation-definitions",
+      "heading": "Interpretation and Definitions",
+      "subHeading": "Interpretation",
+      "text": "Words whose initial is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or plural.",
+      "definitionsHeading": "Definitions",
+      "definitionsSubText": "For the purposes of this Privacy Policy:",
+      "definitions": [
+        "**Account** means a unique account created to allow You access to our Service or parts of it.",
+        "**Affiliate** means an entity that controls, is controlled by, or is under common control with a party.",
+        "**Company** (referred to as 'the Company', 'We', 'Us' or 'Our') refers to Martes AI.",
+        "**Cookies** are small files placed on Your device.",
+        "**Country** refers to: Italy.",
+        "**Device** means any device that can access the Service.",
+        "**Personal Data** means any information relating to an identified or identifiable individual.",
+        "**Service** refers to the Website.",
+        "**Service Provider** means any natural or legal person who processes data on behalf of the Company.",
+        "**Usage Data** indicates data collected automatically.",
+        "**Website** refers to Martes AI, accessible from https://www.martes-ai.com/",
+        "**You** indicates the individual accessing or using the Service."
+      ]
+    },
+    {
+      "id": "collecting-using-data",
+      "heading": "Collection and Use of Your Personal Data",
+      "subHeading": "Types of Data Collected",
+      "subSubHeading": "Personal Data",
+      "text": "While using our Service, we may ask You to provide us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include:",
+      "list": ["Email address", "First name and last name", "Usage Data"],
+      "extraSections": [
+        {
+          "title": "Usage Data",
+          "content": "Usage Data is collected automatically during the use of the Service. It may include IP address, browser type, pages visited, date and time, and device identifiers."
+        },
+        {
+          "title": "Tracking Technologies and Cookies",
+          "content": "We use Cookies and similar tracking technologies.",
+          "subList": [
+            "**Necessary Cookies:** Essential for the service.",
+            "**Functionality Cookies:** To remember choices."
+          ],
+          "footer": "For more information, visit our Cookie Policy."
+        }
+      ]
+    },
+    {
+      "id": "use-of-data",
+      "heading": "Use of Your Personal Data",
+      "text": "The Company may use Personal Data to:",
+      "list": [
+        "Provide and maintain the Service.",
+        "Manage Your Account.",
+        "Execution of a contract.",
+        "Contact You via email or other channels.",
+        "Provide news and offers.",
+        "Manage Your requests."
+      ]
+    },
+    {
+      "id": "retention-transfer",
+      "heading": "Data Retention",
+      "text": "We will retain data only for the time necessary for the stated purposes and to fulfill legal obligations.",
+      "subHeading": "Data Transfer",
+      "subText": "Data is processed at the Company's offices and may be transferred to computers outside Your jurisdiction, always ensuring adequate security."
+    },
+    {
+      "id": "changes-contact",
+      "heading": "Changes to the Privacy Policy",
+      "text": "We may update our Privacy Policy. We will inform of changes on this page.",
+      "subHeading": "Contact Us",
+      "subText": "For questions about the Privacy Policy:",
+      "email": "contact@martes-ai.com"
+    }
+  ]
 }

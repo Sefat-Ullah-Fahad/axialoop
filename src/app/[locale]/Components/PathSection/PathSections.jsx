@@ -28,6 +28,10 @@ const PathSections = () => {
         {cards.map((card) => (
           <div key={card.id} className="flex flex-col">
             <div className="mb-6">
+              <span className="text-[#51CB20] text-[10px] font-bold tracking-[0.3em] uppercase mb-4 block">
+                {t(`${card.id}.badge`)}
+              </span>
+
               <h3 className="text-3xl text-white md:text-[40px] font-medium mb-1 tracking-tight">
                 {t(`${card.id}.titleNormal`)}
               </h3>
@@ -43,7 +47,7 @@ const PathSections = () => {
               <img
                 src={card.img}
                 alt="Path Image"
-                className="w-full h-full object-cover transform  transition-transform duration-1000"
+                className="w-full h-full object-cover transform transition-transform duration-1000"
               />
             </motion.div>
 
@@ -56,7 +60,7 @@ const PathSections = () => {
                 <span className="group-hover:text-[#51CB20] transition-colors">
                   {t(`${card.id}.btn`)}
                 </span>
-                <div className="p-2 rounded-full border border-white/30 group-hover/btn:border-[#4ade80] group-hover/btn:translate-x-2 transition-all">
+                <div className="p-2 rounded-full border border-white/30 group-hover/btn:border-[#51CB20] group-hover/btn:translate-x-2 transition-all">
                   <ArrowRight size={18} />
                 </div>
               </button>
