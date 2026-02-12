@@ -124,21 +124,21 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedinIn className="text-[#5B8BA5] hover:text-black cursor-pointer transition-all duration-300" />
+              <FaLinkedinIn className="text-[#5B8BA5] hover:text-white cursor-pointer transition-all duration-300" />
             </a>
             <a
               href="https://x.com/Riccardo_BC"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaTwitter className="text-[#5B8BA5] hover:text-black cursor-pointer transition-all duration-300" />
+              <FaTwitter className="text-[#5B8BA5] hover:text-white cursor-pointer transition-all duration-300" />
             </a>
             <a
               href="https://www.youtube.com/@riccardobellicontarini"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaYoutube className="text-[#5B8BA5] hover:text-black cursor-pointer transition-all duration-300" />
+              <FaYoutube className="text-[#5B8BA5] hover:text-white cursor-pointer transition-all duration-300" />
             </a>
           </div>
         </div>
