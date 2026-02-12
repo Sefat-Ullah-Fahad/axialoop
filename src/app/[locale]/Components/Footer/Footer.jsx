@@ -44,7 +44,7 @@ const Footer = () => {
                 <p>Capitale sociale: € 10.000 i.v.</p>
                 <a
                   href="mailto:contact@martes-ai.com"
-                  className="mt-2 block text-[#5B8BA5] font-semibold hover:text-black transition-colors"
+                  className="mt-2 block text-[#5B8BA5] font-semibold  transition-colors"
                 >
                   contact@martes-ai.com
                 </a>

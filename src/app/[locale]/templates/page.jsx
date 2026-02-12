@@ -12,7 +12,7 @@ export default function TemplatePage() {
   ];
 
   return (
-    <section className="bg-black text-white min-h-screen flex flex-col items-center justify-center px-4 py-20 font-sans selection:bg-[#4ade80]/30">
+    <section className="bg-black text-white mt-10 min-h-screen flex flex-col items-center justify-center px-4 py-20 font-sans selection:bg-[#4ade80]/30">
       <div className="max-w-4xl w-full text-center">
         <motion.p
           initial={{ opacity: 0 }}
