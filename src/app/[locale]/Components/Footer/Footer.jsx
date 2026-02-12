@@ -86,22 +86,22 @@ const Footer = () => {
             </h3>
             <ul className="space-y-4 text-sm font-medium">
               <Link href={"/privacy"}>
-              <li className="hover:text-[#5B8BA5] pb-4  cursor-pointer transition-colors">
-                {t("links.privacy")}
-              </li>
+                <li className="hover:text-[#5B8BA5] pb-4  cursor-pointer transition-colors">
+                  {t("links.privacy")}
+                </li>
               </Link>
 
-             <Link href={"/terms"}>
-              <li className="hover:text-[#5B8BA5] pb-4  cursor-pointer transition-colors">
-                {t("links.terms")}
-              </li>
-             </Link>
+              <Link href={"/terms"}>
+                <li className="hover:text-[#5B8BA5] pb-4  cursor-pointer transition-colors">
+                  {t("links.terms")}
+                </li>
+              </Link>
 
-             <Link href={"/cookiePolicy"}>
-              <li className="hover:text-[#5B8BA5] cursor-pointer transition-colors">
-                {t("links.cookie")}
-              </li>
-             </Link>
+              <Link href={"/cookiePolicy"}>
+                <li className="hover:text-[#5B8BA5] cursor-pointer transition-colors">
+                  {t("links.cookie")}
+                </li>
+              </Link>
             </ul>
           </div>
         </div>
@@ -117,7 +117,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaInstagram className="text-[#5B8BA5] hover:text-black cursor-pointer transition-all duration-300" />
+              <FaInstagram className="text-[#5B8BA5] hover:text-white cursor-pointer transition-all duration-300" />
             </a>
             <a
               href="https://www.linkedin.com/company/martes-ai"
